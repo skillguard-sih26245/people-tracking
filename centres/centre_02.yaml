@@ -1,0 +1,6 @@
+name: "Training Centre Beta"
+region: "Central District"
+inventory:
+  inventory: 15
+class_map:
+  inventory: ["inventory", "chair", "laptop", "tv", "bench", "table", "machinery", "tool", "desk"]

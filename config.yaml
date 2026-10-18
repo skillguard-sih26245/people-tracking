@@ -1,0 +1,12 @@
+sample_interval_s: 3
+window_percentile: 90
+persistence:
+  min_samples: 20
+  breach_fraction: 0.8
+attendance:
+  warning: 0.20
+  critical: 0.40
+infra:
+  warning_below: 0.80
+  critical_below: 0.60
+operability_warning_below: 0.50

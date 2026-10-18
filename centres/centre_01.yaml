@@ -1,0 +1,6 @@
+name: "Training Centre Alpha"
+region: "North District"
+inventory:
+  inventory: 20
+class_map:
+  inventory: ["inventory", "chair", "laptop", "tv", "bench", "table", "machinery", "tool", "desk"]

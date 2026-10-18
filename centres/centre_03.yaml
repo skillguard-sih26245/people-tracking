@@ -1,0 +1,6 @@
+name: "Training Centre Gamma"
+region: "South District"
+inventory:
+  inventory: 25
+class_map:
+  inventory: ["inventory", "chair", "laptop", "tv", "bench", "table", "machinery", "tool", "desk"]
