@@ -20,7 +20,7 @@ def apply_privacy_blur(frame: np.ndarray, detections: List[Detection]) -> np.nda
             x2, y2 = min(w, x2), min(h, y2)
             if x2 > x1 and y2 > y1:
                 roi = output[y1:y2, x1:x2]
-                blurred = cv2.GaussianBlur(roi, (51, 51), 30)
+                blurred = cv2.GaussianBlur(roi, (51, 51), 0)
                 output[y1:y2, x1:x2] = blurred
                 
     return output
